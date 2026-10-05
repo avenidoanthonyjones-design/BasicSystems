@@ -85,7 +85,7 @@ After you know the final URL:
 
 ### Optional: GitHub Pages instead
 
-Repo → **Settings → Pages → Source: GitHub Actions**. The included workflow publishes the `public` folder on every push to `main`.
+Repo → **Settings → Pages → Source: GitHub Actions**. The included workflow publishes the `public` folder on every push to `master` (or run it manually: Actions → Deploy to GitHub Pages → Run workflow). If a run fails, use **Re-run failed jobs**, or start a new run — not "Re-run all jobs".
 Note: on a project URL like `username.github.io/repo/`, the custom 404 page's styles won't load (it uses root paths). Everything else works. A custom domain avoids this.
 
 ---
